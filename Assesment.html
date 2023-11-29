@@ -1,0 +1,560 @@
+<html>
+    <head>
+        <style>
+            .deg{
+                color:rgb(0, 0, 0);
+                font-size: 17px;
+                position:relative;
+                left:50px;
+                top:20px;
+                text-decoration: none;
+            }
+            .deg:hover{
+                color:grey;
+            }
+            .f-g{
+                color:black;
+                font-size: 17px;
+                position:relative;
+                left:130px;
+                top:20px;
+                text-decoration: none;
+            }
+            .f-g:hover{
+                color:grey;
+            }
+            .sci{
+                color: black;
+                left: 30px;
+                top: 10px;
+                position: relative;
+                font-size: 30px;
+            }
+            .result{
+                color:rgb(0, 0, 0);
+                font-size: 50px;
+                position:relative;
+                left:20px;
+                top:0px;
+                background-color: rgb(255, 255, 255);
+                width: 1230px;
+                height:100px;
+            }
+            .mc{
+                color:grey;
+                font-size: 17px;
+                position:relative;
+                left:50px;
+                top:30px;
+                text-decoration: none;
+            }
+            .mc:hover{
+                color:rgb(0, 0, 0);
+            }
+            .mr{
+                color:grey;
+                font-size: 17px;
+                position:relative;
+                left:138px;
+                top:30px;
+                text-decoration: none;
+            }
+            .mr:hover{
+                color:rgb(0, 0, 0);
+            }
+            .mp{
+                color:black;
+                font-size: 17px;
+                position:relative;
+                left:235px;
+                top:30px;
+                text-decoration: none;
+            }
+            .mp:hover{
+                color:grey;
+            }
+            .mm{
+                color:black;
+                font-size: 17px;
+                position:relative;
+                left:320px;
+                top:30px;
+                text-decoration: none;
+            }
+            .mm:hover{
+                color:grey;
+            }
+            .ms{
+                color:black;
+                font-size: 17px;
+                position:relative;
+                left:400px;
+                top:30px;
+                text-decoration: none;
+            }
+            .ms:hover{
+                color:grey;
+            }
+            .line{
+                top:10px;
+                position: relative;
+                left: -8px;
+            }
+            .trigno{
+                top:0px;
+                position:relative;
+                left:45px;
+                border-color: white;
+                font-size: 17px;
+            }
+            .func{
+                top:0px;
+                position:relative;
+                left:75px;
+                border-color: white;
+                font-size: 17px;
+            }
+            .first{
+                position: relative;
+                top: 10px;
+                left: 5px;
+                width: 250px;
+                height: 60px;
+                background-color: grey;
+                color: black;
+                border-color:grey;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+            .first:hover{
+                background-color: rgb(86, 81, 81) ;
+            }
+            .second{
+                position: relative;
+                top: 12px;
+                left: 5px;
+                width: 250px;
+                height: 60px;
+                background-color: grey;
+                color: black;
+                border-color:grey;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+            .second:hover{
+                background-color: rgb(86, 81, 81) ;
+            }
+            .third{
+                position: relative;
+                top: 14px;
+                left: 5px;
+                width: 250px;
+                height: 60px;
+                background-color: grey;
+                color: black;
+                border-color:grey;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+            .third:hover{
+                background-color: rgb(86, 81, 81) ;
+            }
+            .fourth{
+                position: relative;
+                top: 16px;
+                left: 5px;
+                width: 250px;
+                height: 60px;
+                background-color: grey;
+                color: black;
+                border-color:grey;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+            .fourth:hover{
+                background-color: rgb(86, 81, 81) ;
+            }
+            .fourthone{
+                position: relative;
+                top: 16px;
+                left: 5px;
+                width: 250px;
+                height: 60px;
+                background-color: rgb(112, 99, 99);
+                color: black;
+                border-color:grey;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+            .fourthone:hover{
+                background-color: rgb(86, 81, 81) ;
+            }
+            .fourthtwo{
+                position: relative;
+                top: 16px;
+                left: 5px;
+                width: 250px;
+                height: 60px;
+                background-color: rgb(112, 99, 99);
+                color: black;
+                border-color:grey;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+            .fourthtwo:hover{
+                background-color: rgb(86, 81, 81) ;
+            }
+            .fourththree{
+                position: relative;
+                top: 16px;
+                left: 5px;
+                width: 250px;
+                height: 60px;
+                background-color: rgb(112, 99, 99);
+                color: black;
+                border-color:grey;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+            .fourththree:hover{
+                background-color: rgb(86, 81, 81) ;
+            }
+            .fifth{
+                position: relative;
+                top: 18px;
+                left: 5px;
+                width: 250px;
+                height: 60px;
+                background-color: grey;
+                color: black;
+                border-color:grey;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+            .fifth:hover{
+                background-color: rgb(86, 81, 81) ;
+            }
+            .fifthone{
+                position: relative;
+                top: 18px;
+                left: 5px;
+                width: 250px;
+                height: 60px;
+                background-color: rgb(112, 99, 99);
+                color: black;
+                border-color:grey;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+            .fifthone:hover{
+                background-color: rgb(86, 81, 81) ;
+            }
+            .fifthtwo{
+                position: relative;
+                top: 18px;
+                left: 5px;
+                width: 250px;
+                height: 60px;
+                background-color: rgb(112, 99, 99);
+                color: black;
+                border-color:grey;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+            .fifthtwo:hover{
+                background-color: rgb(86, 81, 81) ;
+            }
+            .fifththree{
+                position: relative;
+                top: 18px;
+                left: 5px;
+                width: 250px;
+                height: 60px;
+                background-color: rgb(112, 99, 99);
+                color: black;
+                border-color:grey;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+            .fifththree:hover{
+                background-color: rgb(86, 81, 81) ;
+            }
+            .sixth{
+                position: relative;
+                top: 20px;
+                left: 5px;
+                width: 250px;
+                height: 60px;
+                background-color: grey;
+                color: black;
+                border-color:grey;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+            .sixth:hover{
+                background-color: rgb(86, 81, 81) ;
+            }
+            .sixthone{
+                position: relative;
+                top: 20px;
+                left: 5px;
+                width: 250px;
+                height: 60px;
+                background-color:rgb(112, 99, 99);
+                color: black;
+                border-color:grey;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+            .sixthone:hover{
+                background-color: rgb(86, 81, 81) ;
+            }
+            .sixthtwo{
+                position: relative;
+                top: 20px;
+                left: 5px;
+                width: 250px;
+                height: 60px;
+                background-color:rgb(112, 99, 99);
+                color: black;
+                border-color:grey;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+            .sixthtwo:hover{
+                background-color: rgb(86, 81, 81) ;
+            }
+            .sixththree{
+                position: relative;
+                top: 20px;
+                left: 5px;
+                width: 250px;
+                height: 60px;
+                background-color:rgb(112, 99, 99);
+                color: black;
+                border-color:grey;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+            .sixththree:hover{
+                background-color: rgb(86, 81, 81) ;
+            }
+
+            .seventh{
+                position: relative;
+                top: 22px;
+                left: 5px;
+                width: 250px;
+                height: 60px;
+                background-color: grey;
+                color: black;
+                border-color:grey;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+            .seventh:hover{
+                background-color: rgb(86, 81, 81) ;
+            }
+            .seventhone{
+                position: relative;
+                top: 22px;
+                left: 5px;
+                width: 250px;
+                height: 60px;
+                background-color: rgb(112, 99, 99);
+                color: black;
+                border-color:grey;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+            .seventhone:hover{
+                background-color: rgb(86, 81, 81) ;
+            }
+            .seventhtwo{
+                position: relative;
+                top: 22px;
+                left: 5px;
+                width: 250px;
+                height: 60px;
+                background-color: rgb(112, 99, 99);
+                color: black;
+                border-color:grey;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+            .seventhtwo:hover{
+                background-color: rgb(86, 81, 81) ;
+            }
+            .sevenththree{
+                position: relative;
+                top: 22px;
+                left: 5px;
+                width: 250px;
+                height: 60px;
+                background-color: rgb(112, 99, 99);
+                color: black;
+                border-color:grey;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+            .sevenththree:hover{
+                background-color: rgb(86, 81, 81) ;
+            }
+            .seventhfourth{
+                position: relative;
+                top: 22px;
+                left: 5px;
+                width: 250px;
+                height: 60px;
+                background-color: rgb(159, 101, 101);
+                color: black;
+                border-color:grey;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+            .seventhfourth:hover{
+                background-color: rgb(86, 81, 81) ;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <form name = "form1">  
+            <p class="sci">Scientific</p>
+            <input type="text" class="result" name="answer">
+            </form>
+        </div>
+        <div>
+            <a href="#" class="deg">DEG</a>
+            <a href="#" class="f-g">f-g</a>
+
+        </div>
+        <div>
+            <a href="#" class="mc">MC</a>
+            <a href="#" class="mr">MR</a>
+            <a href="#" class="mp">M+</a>
+            <a href="#" class="mm">M-</a>
+            <a href="#" class="ms">MS</a>
+        </div>
+        <div>
+            <p class="line">_______________________________________________________________________________________________________________________________________________________________</p>
+        </div>
+        <div>
+            <select class="trigno">
+                <option value="1">
+                    Trignometry
+                </option>
+                <option>
+                    2nd
+                </option>
+                <option>
+                    sin
+                </option>
+                <option>
+                    cos
+                </option>
+                <option>
+                    tan
+                <option>
+                    hyp
+                </option>
+                <option>
+                    sec
+                </option>
+                <option>
+                    cse
+                </option>
+                <option>
+                    cot
+                </option>
+            </select>
+            <select class="func">
+                <option>
+                    function
+                </option>
+                <option>
+                    |x|
+                </option>
+                <option>
+                    rand
+                </option>
+                <option>
+                    ->dms
+                </option>
+                <option>
+                    ->deg
+                </option>
+            </select>
+        </div>
+        <div>
+        <button class="first">2nd</button> 
+        <button class="first" onclick = "form1.answer.value += '&prod;' ">&prod;</button> 
+        <button class="first">e</button> 
+        <button class="first" onclick = "form1.answer.value = ' ' ">c</button> 
+        <button class="first">BACK</button> 
+        </div>
+        <div>
+        <button class="second">X<sup>3</sup></button> 
+        <button class="second">1/x</button> 
+        <button class="second">|x|</button> 
+        <button class="second">exp</button> 
+        <button class="second">mod</button>
+        </div>
+        <div>
+        <button class="third"><span>&#8731;</span>X
+        </button> 
+        <button class="third">(</button> 
+        <button class="third">)</button> 
+        <button class="third">n!</button> 
+        <button class="third" onclick = "form1.answer.value += '%' ">%</button> 
+        </div>
+        <div>
+        <button class="fourth">y<span>&#8730;</span>X</button> 
+        <button class="fourthone"onclick = "form1.answer.value += '7' ">7</button> 
+        <button class="fourthtwo"onclick = "form1.answer.value += '8' ">8</button> 
+        <button class="fourththree" onclick = "form1.answer.value += '9' ">9</button> 
+        <button class="fourth" onclick = "form1.answer.value += '*' ">*</button> 
+        </div>
+        <div>
+        <button class="fifth" >2<sup>x</sup></button> 
+        <button class="fifthone"onclick = "form1.answer.value += '4' ">4</button> 
+        <button class="fifthtwo" onclick = "form1.answer.value += '5' ">5</button> 
+        <button class="fifththree" onclick = "form1.answer.value += '6' ">6</button> 
+        <button class="fifth" onclick = "form1.answer.value += '-' ">-</button> 
+        </div>
+        <div>
+        <button class="sixth" >log<sub>y</sub>x</button> 
+        <button class="sixthone" onclick = "form1.answer.value += '1' " >1</button> 
+        <button class="sixthtwo" onclick = "form1.answer.value += '2' ">2</button> 
+        <button class="sixththree" onclick = "form1.answer.value += '3' ">3</button> 
+        <button class="sixth" onclick = "form1.answer.value += '+' ">+</button> 
+        </div>
+        <div>
+        <button class="seventh">e<sup>x</sup></button> 
+        <button class="seventhone" onclick = "form1.answer.value += '+/-' ">+/-</button> 
+        <button class="seventhtwo "onclick = "form1.answer.value += '0' ">0</button> 
+        <button class="sevenththree" onclick = "form1.answer.value += '.' ">.</button> 
+        <button class="seventhfourth" onclick = "form1.answer.value = eval(form1.answer.value) ">=</button> 
+        </div>
+    </body>
+</html>
